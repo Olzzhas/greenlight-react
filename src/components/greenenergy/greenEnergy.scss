@@ -1,0 +1,261 @@
+.greenenergy{
+    margin-top: 224px;
+    display: flex;
+    flex-direction: column;
+
+    &__title{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    
+        span{
+            margin: auto;
+
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 60px;
+
+            color: #506251;
+        }
+        p{
+            width: 780px;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 60px;
+            
+            color: #506251;
+            
+            opacity: 0.6;
+        }
+    }
+
+    &__photo-block{
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 64px;
+
+        align-items: flex-end;
+    }
+
+    &__photo-container{
+        width: 840px;
+        height: 460px;
+
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    &__electrostations{
+        width: 840px;
+        margin-top: 40px;
+
+        ul{
+            display: flex;
+            justify-content: space-between;
+            
+            li{
+                display: flex;
+                align-items: center;
+
+                img{
+                    margin-right: 13px;
+                }
+
+                span{
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 32px;
+
+                    color: #506251;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1040px) {
+    .greenenergy{
+        margin-top: 180px;
+        &__title{
+            span{
+                font-size: 36px;
+                line-height: 50px
+            }
+            p{
+                font-size: 36px;
+                line-height: 50px
+            }
+        }
+
+        &__photo-container{
+            width: 800px;   
+        }
+
+        &__electrostations{
+            width: 800px;
+        }
+    }
+}
+
+@media screen and (max-width:850px) {
+    .greenenergy{
+        margin-top: 140px;
+        &__title{
+            span{
+                font-size: 28px;
+                line-height: 40px;
+            }
+            p{
+                width: 650px;
+                font-size: 28px;
+                line-height: 40px;
+            }
+        }
+
+        &__photo-container{
+            width: 600px;
+        }
+
+        &__photo-block{
+            margin-top: 48px;
+        }
+
+        &__electrostations{
+            width: 600px;
+
+            ul{
+                li{
+                    span{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:640px) {
+    .greenenergy{
+        margin-top: 100px;
+        &__title{
+            span{
+                font-size: 20px;
+                line-height: 25px;
+            }
+            p{
+                width: 500px;
+                font-size: 20px;
+                line-height: 25px;
+            }
+        }
+
+        &__photo-container{
+            width: 500px;
+        }
+
+        &__photo-block{
+            margin-top: 36px;
+        }
+
+        &__electrostations{
+            width: 500px;
+            display: flex;
+            ul{ 
+                li{
+                    span{
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:540px) {
+    .greenenergy{
+        margin-top: 80px;
+        &__title{
+            span{
+                font-size: 20px;
+                line-height: 25px;
+            }
+            p{
+                width: 400px;
+                font-size: 20px;
+                line-height: 25px;
+            }
+        }
+
+        &__photo-container{
+            width: 400px;
+            display: none;
+        }
+
+        &__photo-block{
+            margin-top: 28px;
+        }
+
+        &__electrostations{
+            width: 400px;
+            display: flex;
+            ul{
+                flex-direction: column;
+
+                li{
+                    span{
+                        font-size: 16px;
+                        line-height: 32px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:390px) {
+    .greenenergy{
+        margin-top: 60px;
+        &__title{
+            span{
+                font-size: 16px;
+                line-height: 25px;
+            }
+            p{
+                width: 300px;
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+
+        &__photo-container{
+            width: 300px;
+            display: none;
+        }
+
+        &__photo-block{
+            margin-top: 24px;
+        }
+
+        &__electrostations{
+            width: 300px;
+            display: flex;
+            ul{
+                flex-direction: column;
+
+                li{
+                    span{
+                        font-size: 16px;
+                        line-height: 32px;
+                    }
+                }
+            }
+        }
+    }
+}

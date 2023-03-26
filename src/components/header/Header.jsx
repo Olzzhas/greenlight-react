@@ -4,7 +4,7 @@ import './header.scss'
 
 function Header(){
 
-    const [navIsOpen, setNavIsOpen] = React.useState(false)
+    const [navIsOpen, setNavIsOpen] = React.useState(true)
 
     function navbarClickHandler(){
         setNavIsOpen(!navIsOpen)
@@ -15,13 +15,13 @@ function Header(){
             <div className="header__content">
                 <img src="/img/Logo.png" alt="logo" />
 
-                <div style={navIsOpen ? {} : {visibility:'hidden', height:"0px"}}  className="header__info-block">
+                <div style={navIsOpen ? {} : {display:'none'}}  className="header__info-block">
                     <span>Почему это важно</span>
                     <span>Как всё изменится</span>
                     <span>О сервисе</span>
                 </div>
 
-                <div style={navIsOpen ? {} : {visibility:'hidden', height:"0px"}} className="header__button">
+                <div style={navIsOpen ? {} : {display:'none'}} className="header__button">
                     <span>Присоединиться</span>
                 </div>
 

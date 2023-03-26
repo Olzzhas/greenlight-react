@@ -111,7 +111,7 @@ header{
 @media screen and (max-width:1040px) {
     header{
         width: 800px;
-        height: 240px;
+        height: fit-content;
     }
 
     .burger{
@@ -123,6 +123,7 @@ header{
             display: flex;
             flex-direction: column;
             align-items:first baseline;
+            height: fit-content;
             
             img{
                 cursor: pointer;
@@ -135,6 +136,7 @@ header{
             display: flex;
             flex-direction: column;
             width: fit-content;
+            height: fit-content;
             justify-content: space-between;
     
             span{
@@ -157,6 +159,7 @@ header{
 
         &__button{
             margin-top: 15px;
+            
         }
 
     }
@@ -165,7 +168,7 @@ header{
 @media screen and (max-width:850px) {
     header{
         width: 600px;
-        max-height: 100px;
+        height: fit-content;
     }
 
     .burger{
@@ -218,8 +221,116 @@ header{
 
 @media screen and (max-width:640px) {
     header{
+        width: 500px;
+        height: fit-content;
+    }
+
+    .burger{
+        visibility:visible;
+    }
+
+    .header{
+        &__content{
+            display: flex;
+            flex-direction: column;
+            align-items:first baseline;
+            
+            img{
+                cursor: pointer;
+                margin-bottom: 20px;
+            }
+        }
+
+        &__info-block{
+
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            justify-content: space-between;
+    
+            span{
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                color: #506251; 
+
+                margin-bottom: 5px;
+                
+                cursor: pointer;
+                transition: all 0.15s ease-in-out;
+            }
+    
+            span:hover{
+                opacity: 0.5;
+            }
+        }
+
+        &__button{
+            margin-top: 15px;
+        }
+
+    }
+} 
+
+@media screen and (max-width:540px) {
+    header{
+        width: 400px;
+        height: fit-content;
+    }
+
+    .burger{
+        visibility:visible;
+    }
+
+    .header{
+        &__content{
+            display: flex;
+            flex-direction: column;
+            align-items:first baseline;
+            
+            img{
+                cursor: pointer;
+                margin-bottom: 20px;
+            }
+        }
+
+        &__info-block{
+
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            justify-content: space-between;
+    
+            span{
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                color: #506251; 
+
+                margin-bottom: 5px;
+                
+                cursor: pointer;
+                transition: all 0.15s ease-in-out;
+            }
+    
+            span:hover{
+                opacity: 0.5;
+            }
+        }
+
+        &__button{
+            margin-top: 15px;
+        }
+
+    }
+} 
+
+@media screen and (max-width:390px) {
+    header{
         width: 300px;
-        height: 240px;
+        height: fit-content;
     }
 
     .burger{

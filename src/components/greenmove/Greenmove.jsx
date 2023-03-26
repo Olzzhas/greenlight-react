@@ -10,7 +10,7 @@ function Greenmove(){
                 <span>Переходите на «зелёную» энергию и помогайте окружающей среде</span>
             </div>
 
-            <div style={{width:"100%", display:"flex", marginTop:"370px"}}>
+            <div style={{width:"100%", display:"flex"}}>
                 <div className="greenmove__bottom-info">
                     <p>GreenLight — доступный сервис для покупки «зелёной» энергии</p>
                     <div className="greenmove__button">
