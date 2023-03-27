@@ -6,6 +6,7 @@ import GreenEnergy from './components/greenenergy/GreenEnergy';
 import Renewable from './components/renewable/Renewable';
 import World from './components/world/World';
 import Instuctions from './components/instructoions/Instructions';
+import Form from './components/Form/Form';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Renewable/>
       <World/>
       <Instuctions/>
+      <Form/>
     </div>
   );
 }

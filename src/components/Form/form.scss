@@ -1,0 +1,109 @@
+.form{
+    margin-top: 224px;
+
+    &__title{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 60px;
+        color: #506251;
+
+        span{
+            width: 780px;
+            opacity: 0.6;
+        }
+    }
+
+    &__greenlight{
+        display: flex;  
+        img{
+            margin-right: 37px; 
+        }
+
+        p{
+
+        }
+    }
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 72px;
+        margin-bottom: 200px;
+
+        h1{
+            width: 420px;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            color: #506251;
+
+            margin-left: 125px;
+            span{
+                color: #4AA274;
+            }
+        }
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        width: fit-content; 
+
+
+        input{
+            border: 1px solid white;
+            border-bottom: 1px solid #000;
+
+            width: 600px;
+            height: 68px;       
+
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;  
+            color: #506251;
+
+            opacity: 0.6;
+        }
+
+        button{
+            width: 600px;
+            height: 64px;
+            margin-top: 64px;
+            margin-bottom: 40px;
+
+            background: #4AA274;
+            border-radius: 4px;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            text-align: center;
+            
+            color: #FFFFFF;
+        }
+
+        h2{
+            width: 373px;
+            margin: auto;
+
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+
+            color: #506251;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: #4AA274;
+            }
+        }
+    }
+}
