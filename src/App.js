@@ -5,6 +5,7 @@ import Greenmove from './components/greenmove/Greenmove';
 import GreenEnergy from './components/greenenergy/GreenEnergy';
 import Renewable from './components/renewable/Renewable';
 import World from './components/world/World';
+import Instuctions from './components/instructoions/Instructions';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <GreenEnergy/>
       <Renewable/>
       <World/>
+      <Instuctions/>
     </div>
   );
 }
